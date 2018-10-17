@@ -1,6 +1,6 @@
 title = "CoderDojo 瀬戸"
 baseURL = "https://coderdojo-seto.github.io"
-languageCode = "ja-JP"
+languageCode = "ja"
 theme = "ananke"
 
 MetaDataFormat = "yaml"
