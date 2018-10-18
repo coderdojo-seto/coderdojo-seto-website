@@ -1,5 +1,5 @@
 ---
-title: "CoderDojo瀬戸について"
+title: "CoderDojo 瀬戸について"
 date: 2018-10-15T23:42:03+09:00
 draft: false
 menu:
@@ -7,9 +7,9 @@ menu:
 ---
 ## CoderDojo 瀬戸とは？
 
-CoderDojo瀬戸は愛知県瀬戸市で開催する子供向けプログラミング教室です。
+CoderDojo 瀬戸は愛知県瀬戸市で開催する子供向けプログラミング教室です。
 
-CoderDojo瀬戸は
+CoderDojo 瀬戸は
 
 - 小中学生向けのプログラミング道場です。
 - プログラミングをしたい子供のために、自由にプログラミングをする環境を提供します。

@@ -17,7 +17,7 @@ enableRobotsTXT = true
 
 [params]
   favicon = ""
-  description = "CoderDojo瀬戸 - 愛知県瀬戸市の子供向けプログラミング道場"
+  description = "CoderDojo 瀬戸 - 愛知県瀬戸市の子供向けプログラミング道場"
   facebook = ""
   twitter = "https://twitter.com/ichiroc"
   instagram = ""
