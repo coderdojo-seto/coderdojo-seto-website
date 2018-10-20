@@ -29,3 +29,4 @@ enableRobotsTXT = true
   background_color_class = "bg-black"
   featured_image = "/images/eye-catch.jpg"
   recent_posts_number = 3
+  env = "production"
