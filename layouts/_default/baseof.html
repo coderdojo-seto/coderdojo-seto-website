@@ -62,8 +62,8 @@
       <meta mame="og:image" content="{{ .Site.BaseURL }}{{ .Params.eyecatch }}" />
       <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.eyecatch }}" />
       {{ else }}
-      <meta name="og:image" content="{{ .Site.BaseURL }}images/logo-250.png" />
-      <meta name="twitter:image" content="{{ .Site.BaseURL }}images/logo-250.png" />
+      <meta name="og:image" content="{{ .Site.BaseURL }}/images/logo.png" />
+      <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/logo.png" />
     {{ end }}
 
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
