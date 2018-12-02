@@ -58,6 +58,13 @@
     {{- template "_internal/google_news.html" . -}}
     {{- template "_internal/schema.html" . -}}
     {{- template "_internal/twitter_cards.html" . -}}
+    {{ if .Params.eyecatch }}
+      <meta mame="og:image" content="{{ .Site.BaseURL }}{{ .Params.eyecatch }}" />
+      <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.eyecatch }}" />
+      {{ else }}
+      <meta name="og:image" content="{{ .Site.BaseURL }}images/logo-250.png" />
+      <meta name="twitter:image" content="{{ .Site.BaseURL }}images/logo-250.png" />
+    {{ end }}
 
     {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
       {{ template "_internal/google_analytics_async.html" . }}
