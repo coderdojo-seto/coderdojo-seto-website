@@ -4,7 +4,7 @@
 {{ end }}
 
 {{ define "main" }}
-  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+  <article class="single flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
 
     <header class="mt4 w-100">
       <p class="f6 b helvetica tracked">
@@ -14,7 +14,7 @@
           */}}
         {{with .CurrentSection.Title }}{{. | upper }}{{end}}
       </p>
-      <h1 class="f1 mb1">
+      <h1 class="mb1 single__title">
         {{- .Title -}}
       </h1>
       {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
