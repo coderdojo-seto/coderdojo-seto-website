@@ -8,3 +8,5 @@ CoderDojo瀬戸は子供達がプログラミングを楽しむ場を提供す�
 愛知県瀬戸市で開催しています。
 
 初心者・経験者どちらも歓迎します！
+
+最新の開催日程は [connpass](https://coderdojo-seto.connpass.com/) をご確認ください。
