@@ -1,4 +1,4 @@
-title = "CoderDojo 瀬戸"
+title = "CoderDojo瀬戸"
 baseURL = "https://coderdojo-seto.github.io"
 languageCode = "ja"
 theme = "ananke"
@@ -18,7 +18,7 @@ hasCJKLanguage = true
 
 [params]
   favicon = ""
-  description = "CoderDojo 瀬戸 - 愛知県瀬戸市の子供向けプログラミング道場"
+  description = "CoderDojo瀬戸 - 愛知県瀬戸市の子供向けプログラミング道場"
   facebook = ""
   twitter = "https://twitter.com/ichiroc"
   instagram = ""

@@ -10,4 +10,8 @@ CoderDojo瀬戸は子供達がプログラミングを楽しむ場を提供す�
 
 初心者・経験者どちらも歓迎します！
 
-最新の開催日程は <a href="https://coderdojo-seto.connpass.com/" target="_blank_">connpass</a> をご確認ください。
+最新の開催日程は <a href="https://coderdojo-seto.connpass.com/" target="_blank_">イベントサイト</a> をご確認ください。
+
+<div class="f6">
+子供達が作ってきた作品はこちら<a href="https://scratch.mit.edu/studios/5955350/" target="_blank_">CoderDojo瀬戸スタジオ</a>
+</div>
