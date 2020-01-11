@@ -31,3 +31,8 @@ hasCJKLanguage = true
   featured_image = "/images/eye-catch.jpg"
   recent_posts_number = 3
   env = "production"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
