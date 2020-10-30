@@ -18,8 +18,25 @@
           <h2 class="flex-none">
             最新の{{ .Title }}
           </h2>
+          最新のレポートはFacebookをご覧ください
+          <div style="text-align: center; margin-top: 2rem">
+            <div class="fb-page"
+                 data-href="https://www.facebook.com/coderdeojo.seto"
+                 data-tabs="timeline"
+                 data-width="500"
+                 data-height="800"
+                 data-small-header="true"
+                 data-adapt-container-width="true"
+                 data-hide-cover="false"
+                 data-show-facepile="true">
+              <blockquote cite="https://www.facebook.com/coderdeojo.seto" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/coderdeojo.seto">CoderDojo瀬戸</a>
+              </blockquote>
+            </div>
+          </div>
         {{ end }}
 
+      <h2>以前のレポート</h2>
       {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
 
       <section class="w-100 mw8">

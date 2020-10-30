@@ -80,24 +80,8 @@
                       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
-    <main class="pb7" role="main">
       {{ block "main" . }}{{ end }}
 
-        <div style="text-align: center; margin-top: 2rem">
-            <div class="fb-page"
-                 data-href="https://www.facebook.com/coderdeojo.seto"
-                 data-tabs="timeline"
-                 data-width="500"
-                 data-height="800"
-                 data-small-header="true"
-                 data-adapt-container-width="true"
-                 data-hide-cover="false"
-                 data-show-facepile="true">
-                <blockquote cite="https://www.facebook.com/coderdeojo.seto" class="fb-xfbml-parse-ignore">
-                    <a href="https://www.facebook.com/coderdeojo.seto">CoderDojo瀬戸</a>
-                </blockquote>
-            </div>
-        </div>
     </main>
     {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
     {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
